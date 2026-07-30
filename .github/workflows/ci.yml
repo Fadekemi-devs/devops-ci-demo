@@ -25,6 +25,10 @@ jobs:
      - name: Simulate automated tests
        run: echo "Running automated tests..."
 
+     - name: Display current date and time
+       run: date
+    
+
      - name: Complete workflow
        run: echo "CI successfully completed."
 
